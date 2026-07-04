@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高質量教學 - 培養孩子的專注力</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --text-color: #333333;
+            --bg-light: #f8f9fa;
+            --border-color: #e2e8f0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            line-height: 1.8;
+            color: var(--text-color);
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin: 0 0 10px 0;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            margin: 0;
+            font-weight: 500;
+        }
+
+        .intro-text {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 40px;
+        }
+
+        blockquote {
+            background-color: var(--bg-light);
+            border-left: 5px solid var(--accent-color);
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+        }
+
+        blockquote strong {
+            font-style: normal;
+            color: var(--primary-color);
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: var(--primary-color);
+            margin-top: 50px;
+            margin-bottom: 25px;
+            position: relative;
+            padding-bottom: 8px;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background-color: var(--accent-color);
+        }
+
+        /* 步驟清單樣式 */
+        .steps-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .step-card {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 24px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            transition: transform 0.2s;
+        }
+
+        .step-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        .step-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            border-bottom: 1px dashed var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        .step-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .step-subtitle {
+            font-size: 0.9rem;
+            color: var(--accent-color);
+            background-color: #eaf2f8;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+
+        .step-content {
+            font-size: 1rem;
+            color: #4a5568;
+            margin: 0;
+        }
+
+        /* 表格樣式 */
+        .table-responsive {
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        th, td {
+            padding: 15px;
+            border-bottom: 1px solid var(--border-color);
+            vertical-align: top;
+        }
+
+        th {
+            background-color: var(--bg-light);
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background-color: rgba(52, 152, 219, 0.02);
+        }
+
+        strong {
+            color: #e74c3c;
+        }
+
+        td strong {
+            color: var(--primary-color);
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .subtitle { font-size: 1.2rem; }
+            th, td { padding: 10px; font-size: 0.95rem; }
+            .step-header { flex-direction: column; align-items: flex-start; gap: 5px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>高質量教學</h1>
+            <div class="subtitle">培養孩子的專注力</div>
+        </header>
+
+        <main>
+            <p class="intro-text">在數位誘惑與分心物質無處不在的時代，<strong>專注力不是一種固定的天賦，而是一項可以透過後天引導、逐步鍛鍊的大腦肌肉</strong>。高質量的教學，關鍵在於有系統地為孩子創造「成功專注」的經驗，而不是長時間的疲勞轟炸。</p>
+
+            <blockquote>
+                <strong>核心觀念：</strong><br>
+                培養專注力，重點在於創造能讓孩子進入「心流（Flow）」的環境與節奏。當孩子體驗到深度投入的成就感，專注就會轉化為自發性的習慣。
+            </blockquote>
+
+            <h2>課堂與家庭引導四步驟</h2>
+            
+            <div class="steps-container">
+                <!-- 步驟一 -->
+                <div class="step-card">
+                    <div class="step-header">
+                        <div class="step-title">步驟一：環境管理</div>
+                        <div class="step-subtitle">降低認知負荷</div>
+                    </div>
+                    <p class="step-content">在學習前，<strong>徹底淨化書桌與視線範圍</strong>。移除所有與當前學習無關的物品（如玩具、漫畫、手機）。單純的視覺環境能顯著降低大腦切換注意力的隱形成本。</p>
+                </div>
+
+                <!-- 步驟二 -->
+                <div class="step-card">
+                    <div class="step-header">
+                        <div class="step-title">步驟二：任務微型化</div>
+                        <div class="step-subtitle">減少挫折感</div>
+                    </div>
+                    <p class="step-content">將一個龐大的任務（如「寫完這本數學題」），拆解為數個<strong>具體、短時間能完成的微型目標</strong>（如「先寫完前5題」）。明確的終點線能引發多巴胺分泌，提升孩子的啟動意願。</p>
+                </div>
+
+                <!-- 步驟三 -->
+                <div class="step-card">
+                    <div class="step-header">
+                        <div class="step-title">步驟三：番茄鐘節奏</div>
+                        <div class="step-subtitle">動靜結合</div>
+                    </div>
+                    <p class="step-content">依孩子年齡設定專注極限（如低年級 15-20 分鐘，高年級 25 分鐘）。**時間一到強制休息 5 分鐘**，讓大腦放空。千萬不要看電視或玩手機，避免大腦進入另一輪高興奮狀態。</p>
+                </div>
+
+                <!-- 步驟四 -->
+                <div class="step-card">
+                    <div class="step-header">
+                        <div class="step-title">步驟四：具體反饋</div>
+                        <div class="step-subtitle">強化正向連結</div>
+                    </div>
+                    <p class="step-content">在孩子完成後，**針對「過程」進行具體稱讚**，而非籠統的「你好棒」。例如：「我發現你剛剛寫這5題時，手都沒有停下來，眼睛一直盯著題目，這就是高質量的專注！」</p>
+                </div>
+            </div>
+
+            <h2>教學方式成效對比</h2>
+            
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>傳統教學方式（容易分心）</th>
+                            <th>高質量教學引導（培養專注）</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>長時間連續練習</strong><br>不間斷地塞滿評量與作業，容易讓孩子產生疲勞與厭惡感。</td>
+                            <td><strong>分段定時</strong><br>有清晰且合理的時限，讓孩子知道「快要可以休息了」，更願意全力以赴。</td>
+                        </tr>
+                        <tr>
+                            <td><strong>模糊的指令</strong><br>習慣說「去唸書」、「好好寫」，孩子的大腦抓不到具體核心。</td>
+                            <td><strong>具體行動目標</strong><br>例如「我們現在把這段故事讀完，找出主角總共去了哪三個地方」。</td>
+                        </tr>
+                        <tr>
+                            <td><strong>隨時插話糾正</strong><br>在孩子寫字或思考時，一邊碎念、一邊伸手擦掉寫錯的字。</td>
+                            <td><strong>事後統一回饋</strong><br>在專注期間保持絕對安靜，給予充分信任，等時間結束後才統一討論修正。</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
